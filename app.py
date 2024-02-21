@@ -19,8 +19,8 @@ st.write(
 st.write("Visit https://console.upstage.ai to get your Solar API key.")
 
 models = {
-    "enko": "upstage/solar-1-mini-translate-enko",
-    "koen": "upstage/solar-1-mini-translate-koen",
+    "enko": "solar-1-mini-translate-enko",
+    "koen": "solar-1-mini-translate-koen",
 }
 
 client = OpenAI(
