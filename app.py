@@ -10,7 +10,7 @@ def count_lines(text):
     return text.count("\n") + 1
 
 
-st.title("Solar Custom Translate")
+st.title("🌞 Solar Custom Translate")
 st.write(
     """ Translate between English and Korean using Solar Mini. 
     You can customize the translation style by editing the translation result.
