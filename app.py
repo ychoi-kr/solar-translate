@@ -21,7 +21,6 @@ st.write("Visit https://console.upstage.ai to get your Solar API key.")
 models = {
     "enko": "upstage/solar-1-mini-translate-enko",
     "koen": "upstage/solar-1-mini-translate-koen",
-    "chat": "upstage/solar-1-mini-chat",
 }
 
 client = OpenAI(
@@ -63,13 +62,13 @@ if prompt := st.chat_input("Text to translate"):
         )
         output_area = st.empty()
         response = output_area.write_stream(stream)
-    response = output_area.text_area(
-        label="",
-        value=response,
-        on_change=update_last_content,
-        height=count_lines(response) * 20 + 20,
-        key="new_content",
-    )
+        response = output_area.text_area(
+            label="",
+            value=response,
+            on_change=update_last_content,
+            height=count_lines(response) * 20 + 20,
+            key="new_content",
+        )
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 
@@ -78,10 +77,10 @@ with col1:
     on = st.toggle(label="translation mode", value=True)
     if on:
         st.session_state["model_name"] = models["enko"]
-        tranlate_mode = "EN --> KO"
+        tranlate_mode = "EN → KO"
     else:
         st.session_state["model_name"] = models["koen"]
-        tranlate_mode = "KO --> EN"
+        tranlate_mode = "KO → EN"
 with col2:
     st.write(tranlate_mode)
 
