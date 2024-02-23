@@ -18,6 +18,10 @@ tones = OrderedDict({
         {"role": "user", "content": "If you are not busy right now, please help me."}, {"role": "assistant", "content": "지금 바쁘지 않으면 나 좀 도와줘라."},  # http://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=learnkorean&id=&board_seq=228775&page=280&board_code=net_lang
         {"role": "user", "content": "Please pick up that pen."}, {"role": "assistant", "content": "그 볼펜 좀 집어 다오."},  # https://sgsg.hankyung.com/article/2020103066721
         {"role": "user", "content": "Give this book to your teacher."}, {"role": "assistant", "content": "이 책 선생님께 드려라."},  # https://blog.naver.com/tss52/221022864752
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮다. 나는 출마하지 않는다."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 하지?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생일 축하한다!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 한다."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "해": [
@@ -41,6 +45,10 @@ tones = OrderedDict({
         {"role": "user", "content": "You ate the ice cream that was in the refrigerator, right?"}, {"role": "assistant", "content": "냉장고에 있던 아이스크림 네가 먹었지?"},  # https://goodballad.tistory.com/11739070
         {"role": "user", "content": "You decide what to eat."}, {"role": "assistant", "content": "뭐 먹을지 네가 정해."},
         {"role": "user", "content": "People are going back."}, {"role": "assistant", "content": "사람들이 돌아가."},  # https://www.readersnews.com/news/articleView.html?idxno=66920
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮아. 난 출마하지 않아."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 해?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생일 축하해!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 해."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하게": [
@@ -59,6 +67,10 @@ tones = OrderedDict({
         {"role": "user", "content": "What were you doing that day?"}, {"role": "assistant", "content": "그날 자네는 뭘 하고 있었나?"},  # https://study-korean.tumblr.com/post/165146641390/게-imperative-in-하게체-familiar-speech-level
         {"role": "user", "content": "People are going back."}, {"role": "assistant", "content": "사람들이 돌아가네."},  # https://www.readersnews.com/news/articleView.html?idxno=66920
         {"role": "user", "content": "Please pick up that pen."}, {"role": "assistant", "content": "그 볼펜 좀 집어 주게."},  # https://sgsg.hankyung.com/article/2020103066721
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮네. 나는 출마하지 않네."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 하는가?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생일 축하하네!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 하네."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하오": [
@@ -80,6 +92,10 @@ tones = OrderedDict({
         {"role": "user", "content": "Jungjeon, how concerned are you?"}, {"role": "assistant", "content": "중전, 얼마나 심려가 크시오?"},  # https://goodballad.tistory.com/11739070
         {"role": "user", "content": "People are going back."}, {"role": "assistant", "content": "사람들이 돌아가오."},  # https://www.readersnews.com/news/articleView.html?idxno=66920
         {"role": "user", "content": "Please pick up that pen."}, {"role": "assistant", "content": "그 볼펜 좀 집어 주오."},  # https://sgsg.hankyung.com/article/2020103066721
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮소. 나는 출마하지 않소."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 하오?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생일 축하하오!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 하오."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "해요": [
@@ -96,6 +112,10 @@ tones = OrderedDict({
         {"role": "user", "content": "People are going back."}, {"role": "assistant", "content": "사람들이 돌아가요."},  # https://www.readersnews.com/news/articleView.html?idxno=66920
         {"role": "user", "content": "Please pick up that pen."}, {"role": "assistant", "content": "그 볼펜 좀 집어 줘요."},  # https://sgsg.hankyung.com/article/2020103066721
         {"role": "user", "content": "Assistant Manager Kim, please take care of this."}, {"role": "assistant", "content": "김 대리, 이것 좀 처리해 줘요."},  # http://kocw-n.xcache.kinxcdn.com/data/document/2021/seowon/choiyungon0823/12.pdf
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮아요. 저는 출마하지 않아요."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 해요?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생일 축하해요!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 해요."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하십시오(합쇼)": [
@@ -115,6 +135,10 @@ tones = OrderedDict({
         {"role": "user", "content": "Hello everyone? From now on, I will tell you the nine o'clock news."}, {"role": "assistant", "content": "여러분 안녕하십니까? 지금부터 아홉 시 뉴스를 말씀드리겠습니다."},  # http://kocw-n.xcache.kinxcdn.com/data/document/2021/seowon/choiyungon0823/12.pdf
         {"role": "user", "content": "Let's all go together."}, {"role": "assistant", "content": "모두 함께 가십시다."},  # http://kocw-n.xcache.kinxcdn.com/data/document/2021/seowon/choiyungon0823/12.pdf
         {"role": "user", "content": "Please wait here for a moment."}, {"role": "assistant", "content": "잠시 여기서 기다리십시오."},  # http://kocw-n.xcache.kinxcdn.com/data/document/2021/seowon/choiyungon0823/12.pdf
+        {"role": "user", "content": "That's all right. I'm not running for office."}, {"role": "assistant", "content": "괜찮습니다. 저는 출마하지 않습니다."},  # https://wikidocs.net/222470
+        {"role": "user", "content": "Where should I go?"}, {"role": "assistant", "content": "어디로 가야 합니까?"},  # https://m.blog.naver.com/emi15/221487770857
+        {"role": "user", "content": "Happy birth day to you!"}, {"role": "assistant", "content": "생신 축하합니다!."},
+        {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 합니다."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
 })
