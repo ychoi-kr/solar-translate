@@ -24,6 +24,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 한다."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 내가 메시지를 전하게 해다오."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "나는 항상 계란 편에 서겠다."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "내가 더 일찍 태어났으면 절대로 베스트셀러를 쓸 수 없었을 것이다."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 것이다."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "자신이 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법이다."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "해": [
@@ -53,6 +56,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 해."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 내가 메시지를 전하게 해줘."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "나는 항상 계란 편에 서겠어."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "내가 더 일찍 태어났으면 절대로 베스트셀러를 쓸 수 없었을 거야."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 거야."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "네가 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법이야."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하게": [
@@ -77,6 +83,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 하네."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 내가 메시지를 전하게 해주게."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "나는 항상 계란 편에 서겠네."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "내가 더 일찍 태어났더라면 절대로 베스트셀러를 쓸 수 없었을 거네."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 거네."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "자신이 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법이라네."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하오": [
@@ -104,6 +113,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 하오."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 내가 메시지를 전하게 해주오."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "나는 항상 계란 편에 서겠소."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "내가 더 일찍 태어났더라면 절대로 베스트셀러를 쓸 수 없었을 것이오."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 거요."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "자신이 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법이오."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "해요": [
@@ -126,6 +138,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 해요."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 내가 메시지를 전하게 해줘요."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "전 항상 계란 편에 서겠어요."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "제가 더 일찍 태어났더라면 절대로 베스트셀러를 쓸 수 없었을 거예요."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 거예요."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "자신이 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법이에요."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
     "하십시오(합쇼)": [
@@ -151,6 +166,9 @@ tones = OrderedDict({
         {"role": "user", "content": "I have to get a letter of recommendation from the principal."}, {"role": "assistant", "content": "교장 선생님께 추천서를 받아야 합니다."},  # https://www.90daykorean.com/korean-honorifics/
         {"role": "user", "content": "So, please do allow me to deliver a message."}, {"role": "assistant", "content": "그러니 제가 메시지를 전하게 해주십시오."},  # https://wikidocs.net/222313
         {"role": "user", "content": "I will always stand on the side of the egg."}, {"role": "assistant", "content": "저는 항상 계란 편에 서겠습니다."},  # https://wikidocs.net/222313
+        {"role": "user", "content": "I certainly wouldn't have been able to write a best-selling book if I had been born any earlier."}, {"role": "assistant", "content": "제가 더 일찍 태어났더라면 절대로 베스트셀러를 쓸 수 없었을 것입니다."},  # https://wikidocs.net/222306
+        {"role": "user", "content": "Your work is going to fill a large part of your life."}, {"role": "assistant", "content": "일이 인생에서 큰 부분을 차지하게 될 겁니다."},  # https://wikidocs.net/221634
+        {"role": "user", "content": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."}, {"role": "assistant", "content": "자신이 죽는다는 사실을 기억하는 것이 바로 잃을 것이 있다고 생각하는 함정을 피하는 최선의 방법입니다."},  # https://wikidocs.net/221634
         {"role": "user", "content": "----- End of the preset message -----"}, {"role": "assistant", "content": "----- 프리셋 메시지 끝 -----"},
     ],
 })
