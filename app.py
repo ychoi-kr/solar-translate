@@ -1,5 +1,6 @@
 from openai import OpenAI
 import streamlit as st
+from presets import tones
 
 
 def update_last_content():
@@ -84,7 +85,21 @@ with col1:
 with col2:
     st.write(tranlate_mode)
 
-if st.session_state.messages and st.button("Start over"):
-    st.session_state.messages = []
-    # refresh the page
-    st.rerun()
+
+if st.session_state.messages:
+    selected_tone = st.session_state.get("enko_tone", "no change")
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.session_state.messages and st.button("Start over"):
+            st.session_state.messages = tones[selected_tone]
+            # refresh the page
+            st.rerun()
+    with col2:
+        if  tranlate_mode == "EN → KO":
+            tones_list = list(tones.keys())
+            if selected_tone != "no change":
+                tones_list = tones_list[1:]
+            selected_tone = st.radio("Start over with tone:", tones_list, index=tones_list.index(selected_tone))
+            st.session_state["enko_tone"] = selected_tone
+
+
