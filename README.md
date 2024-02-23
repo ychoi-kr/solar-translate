@@ -1,2 +1,1 @@
-# solar-streamlit
 # solar-translate
