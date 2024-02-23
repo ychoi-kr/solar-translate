@@ -35,6 +35,9 @@ if "model_name" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+if st.session_state.get("is_rerun") and st.session_state["model_name"] == models["enko"]:
+    st.session_state.messages = tones[st.session_state["enko_tone"]]
+    
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
@@ -91,7 +94,8 @@ if st.session_state.messages:
     col1, col2 = st.columns(2)
     with col1:
         if st.session_state.messages and st.button("Start over"):
-            st.session_state.messages = tones[selected_tone]
+            st.session_state.messages = []
+            st.session_state["is_rerun"] = True
             # refresh the page
             st.rerun()
     with col2:
